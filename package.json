@@ -1,0 +1,38 @@
+{
+  "name": "auto-shell",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --watch",
+    "build": "npm run antlr && webpack --config webpack.config.js",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luncert/auto-shell.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luncert/auto-shell/issues"
+  },
+  "homepage": "https://github.com/Luncert/auto-shell#readme",
+  "dependencies": {
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^13.1.8",
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "@typescript-eslint/parser": "^5.61.0",
+    "copy-webpack-plugin": "^5.1.1",
+    "eslint": "^8.44.0",
+    "mocha": "^10.2.0",
+    "node-loader": "^0.6.0",
+    "node-pty": "^1.0.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
